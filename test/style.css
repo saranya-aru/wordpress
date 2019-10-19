@@ -1,0 +1,64 @@
+/*
+Theme Name: Test
+*/
+.custom-menu-class li
+{
+	list-style: none;
+	display: inline-block;
+}
+.custom-menu-class li a
+{
+	text-decoration: none;
+	padding: 20px 20px ;
+}
+body
+{
+	margin: 0;
+}
+.header
+{
+	background: grey;
+	padding: 10px 0px;
+}
+.container
+{
+	width: 1200px;
+	margin: 0 auto;
+}
+.menu-container
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo-sec
+{
+	width: 40px;
+}
+.logo-sec img
+{
+	width: 100%;
+}
+.section-image
+{
+	width: 100%;
+}
+.section-two
+{
+	width: 1200px;
+	margin: 0 auto !important;
+}
+.section-two-readmore
+{
+	background: #0bbcf6;
+    border: navajowhite;
+    border-radius: 51px;
+    color: #fff;
+    font-weight: 600;
+    width: 23%;
+    padding: 10px;
+}
+.section-two-readmore:hover
+{
+	background: red;
+}
